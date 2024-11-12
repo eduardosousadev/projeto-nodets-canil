@@ -1,0 +1,17 @@
+CRIANDO O NODE:
+-> Arquivo packpage.json: npm init
+-> Arquivo de configuração do typescript: tsc --init
+    No arquivo tsconfig.json: Descomente as opções "outDir": "./dist" e "rootDir": "./src". Descomente o "moduleResolution" para o typescript saber qual tipo de projeto que estamos trabalhando, nesse caso, é um projeto node.
+
+DEPENDÊNCIAS QUE VÃO SER INSTALADAS:
+O express, o mustache-express e o dotenv(para as variáveis de ambiente).
+-> npm install express mustache-express dotenv
+-> npm install --save-dev @types/express @types/mustache-express @types/node
+
+O projeto nesse momento já deve ter pré-instalado para o projeto rodar em modo global:
+- nodemon
+- typescript
+- ts-node
+npm install -g nodemon@latest typescript@latest ts-node@latest
+
+
