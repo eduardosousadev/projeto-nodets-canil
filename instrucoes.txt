@@ -14,4 +14,6 @@ O projeto nesse momento já deve ter pré-instalado para o projeto rodar em modo
 - ts-node
 npm install -g nodemon@latest typescript@latest ts-node@latest
 
+npm insttall --save-dev copyfiles
 
+Suba o projeto com railway
