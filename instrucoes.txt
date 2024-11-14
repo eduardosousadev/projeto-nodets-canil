@@ -17,3 +17,5 @@ npm install -g nodemon@latest typescript@latest ts-node@latest
 npm insttall --save-dev copyfiles
 
 Suba o projeto com railway
+Instale no projeto o typescript -> npm install typescript
+Crie um script "tsc": "tsc" no package.json
